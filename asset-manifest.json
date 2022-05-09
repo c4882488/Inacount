@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Inacount/static/css/main.88ae952e.css",
+    "main.js": "/Inacount/static/js/main.229d43ed.js",
+    "index.html": "/Inacount/index.html",
+    "main.88ae952e.css.map": "/Inacount/static/css/main.88ae952e.css.map",
+    "main.229d43ed.js.map": "/Inacount/static/js/main.229d43ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88ae952e.css",
+    "static/js/main.229d43ed.js"
+  ]
+}
