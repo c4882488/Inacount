@@ -1,0 +1,64 @@
+{
+    "v": "0.5",
+    "code": 200,
+    "msg": "執行成功",
+    "onlyWinningInv": "N",
+    "details": [
+        {
+            "rowNum": 1,
+            "invNum": "XW53079261",
+            "cardType": "5G0001",
+            "cardNo": "c4882488@gmail.com",
+            "sellerName": "Spotify AB",
+            "invStatus": "已確認",
+            "invDonatable": true,
+            "amount": "268",
+            "invPeriod": "11104",
+            "donateMark": 0,
+            "invDate": {
+                "year": 111,
+                "month": 4,
+                "date": 10,
+                "day": 7,
+                "hours": 0,
+                "minutes": 0,
+                "seconds": 0,
+                "time": 1649520000000,
+                "timezoneOffset": -480
+            },
+            "sellerBan": "42523825",
+            "sellerAddress": "",
+            "invoiceTime": "18:00:22",
+            "buyerBan": "",
+            "currency": "TWD"
+        },
+        {
+            "rowNum": 2,
+            "invNum": "XW78087593",
+            "cardType": "5G0001",
+            "cardNo": "st86062752@gmail.com",
+            "sellerName": "Apple Distribution International",
+            "invStatus": "已確認",
+            "invDonatable": true,
+            "amount": "90",
+            "invPeriod": "11104",
+            "donateMark": 0,
+            "invDate": {
+                "year": 111,
+                "month": 4,
+                "date": 3,
+                "day": 7,
+                "hours": 0,
+                "minutes": 0,
+                "seconds": 0,
+                "time": 1648915200000,
+                "timezoneOffset": -480
+            },
+            "sellerBan": "42526317",
+            "sellerAddress": "",
+            "invoiceTime": "14:25:13",
+            "buyerBan": "",
+            "currency": "TWD"
+        }
+    ]
+}

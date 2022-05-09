@@ -1,0 +1,217 @@
+.screen{
+    background:#e8e3ad;
+    flex:1,
+}
+.card-title{  
+    background-color:#f5f5f5;
+    width: auto;
+    height: 50px;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-content: center;      
+    flex-wrap: wrap;
+}
+.card-title .card-title-text{
+    font-weight: bold;
+    font-size: 22px;  
+}
+.card-title .card-title-icon{
+    margin-right: 3%;
+    margin-bottom: 5%;
+    float: right;
+}
+.card-item{
+    background-color:#f5f5f5;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px #dbd8d8;
+    font-size: 16px;
+    font-family: "微軟正黑體";
+
+}
+.card-item .card-itemDetail{
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    vertical-align: middle;
+    line-height:30px
+}
+.card-item .card-link{
+    margin-right: 3%;
+    margin-bottom: 5%;
+    text-align: right;
+}
+.card-item .card-icon{
+    margin-top: 2%;
+}
+.record-item{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-content: center;  
+}
+.record-item .record-item-button-revExp{
+    display: flex;
+    justify-content: center;    
+    align-content: center;     
+    flex-wrap: wrap;   
+    margin-top: 0%; 
+}
+
+.record-item .record-item-button-type{
+    display: flex;  
+    flex-wrap: wrap;   
+    margin-top: 13%; 
+    justify-content: space-around;  
+
+}
+.record-item .record-item-text{
+    color: rgb(111, 167, 246);
+    margin-top: 10%;
+    display: flex;
+    justify-content: center; 
+    align-content: center;      
+    flex-wrap: wrap;
+}
+
+.record-title{  
+    background-color:#e8e3ad;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-content: center;      
+    flex-wrap: wrap;
+}
+.record-title .record-title-text{
+    font-weight: bold;
+    font-size: 22px;  
+}
+.record-block{
+    height: 150px;
+}
+
+.invoiceList-title{  
+    background-color:#f5f5f5;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-content: center;      
+    flex-wrap: wrap;
+}
+.invoiceList-title .invoiceList-title-text{
+    font-weight: bold;
+    font-size: 22px;  
+}
+.invoiceList-item{
+    display: flex;
+    justify-content: center;    
+    align-content: center;     
+    flex-wrap: wrap; 
+}
+.invoiceList-text{
+    display: flex;
+    justify-content: center;    
+    align-content: center;     
+    flex-wrap: wrap; 
+    font-weight: bold;
+    font-size: 18px;
+}
+.invoice-block{
+    height: 70px;
+}
+.invoice-item{
+    background-color:#f5f5f5;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px #dbd8d8;
+    font-size: 16px;
+    font-family: "微軟正黑體";
+}
+
+.invoice-item .invoice-itemDetail{
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.invoice-item .invoice-price{
+    margin-right: 3%;
+    margin-top: 2%;
+    text-align: end;
+    font-size: 16px;
+    font-weight: bold;
+    color:red;
+}
+.invoice-item .invoice-type{
+    margin-right: 2%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    float:right;
+    font-size: 16px;
+    font-weight: bold;
+    color:green;
+}
+.invoice-item .invoice-invoice{
+    font-size: 16px;
+    font-weight: bold;
+    flex-wrap: nowrap; 
+    align-content: center;  
+    color:rgb(0, 0, 0);
+}
+.invoice-item .invoice-invoice-icon{
+    margin-right: 5%;
+    margin-top: 2%;
+    font-size: 18px;
+}
+.invoice-item .invoice-date{
+    margin-left: 5%;
+    font-size: 13px;
+    font-weight: bold;
+    align-content: center;     
+    color:rgb(0, 0, 0);
+}
+.invoice-item .invoiceNull-date{
+    margin-left: 33%;
+    font-size: 13px;
+    font-weight: bold;
+    align-content: center;     
+    color:rgb(0, 0, 0);
+}
+.invoice-item .invoice-desc{
+    margin-left: 5%;
+    font-size: 12px;
+    font-weight: bold;
+    align-content: center;     
+    color:rgb(142, 142, 142);
+}
+.modal-content {
+    background-color: #e8e3ad;
+}
+.modal-header {
+    background-color: #FFFFFF;
+}
+.content{
+    background-color: #e8e3ad;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    
+}
